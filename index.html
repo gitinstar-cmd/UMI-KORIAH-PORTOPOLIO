@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Umi Qoriah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3D Grid Background -->
+    <div class="grid-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container">
+            <div class="logo">UQ</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content glass">
+                <div class="profile-circle">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23a78bfa'/%3E%3Ccircle cx='50' cy='35' r='15' fill='%23e9d5ff'/%3E%3Cpath d='M30 65 Q50 75 70 65' fill='%23e9d5ff'/%3E%3C/svg%3E" alt="Umi Qoriah">
+                </div>
+                <h1>Umi Qoriah</h1>
+                <p>Web Developer & Designer</p>
+                <p class="subtitle">Aplikasi pengalaman kontak pelanggan dengan Laravel & Tailwind (contoh project)</p>
+                <div class="btn-group">
+                    <a href="#portofolio" class="btn btn-primary">Lihat Karya</a>
+                    <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="tentang">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Saya</h2>
+                <p>Mari berkenalan lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card glass">
+                    <div class="card-icon">💻</div>
+                    <h3>Frontend Developer</h3>
+                    <p>Membuat interface yang indah dan responsif dengan HTML, CSS, dan JavaScript</p>
+                </div>
+                <div class="about-card glass">
+                    <div class="card-icon">🎨</div>
+                    <h3>UI/UX Designer</h3>
+                    <p>Merancang pengalaman pengguna yang intuitif dan user-friendly</p>
+                </div>
+                <div class="about-card glass">
+                    <div class="card-icon">⚡</div>
+                    <h3>Web Developer</h3>
+                    <p>Mengembangkan website yang cepat, aman, dan berkualitas tinggi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portofolio" class="portofolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portofolio Saya</h2>
+                <p>Kumpulan proyek terbaik saya</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card glass">
+                    <div class="portfolio-header">
+                        <div class="gradient-box gradient-1"></div>
+                    </div>
+                    <div class="portfolio-body">
+                        <h3>Personal CRM</h3>
+                        <p>Aplikasi pengelola kontak pelanggan dengan Laravel & Tailwind</p>
+                        <div class="btn-group-small">
+                            <a href="#" class="btn-small">Live</a>
+                            <a href="#" class="btn-small">Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass">
+                    <div class="portfolio-header">
+                        <div class="gradient-box gradient-2"></div>
+                    </div>
+                    <div class="portfolio-body">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Platform belanja online dengan fitur payment gateway terintegrasi</p>
+                        <div class="btn-group-small">
+                            <a href="#" class="btn-small">Live</a>
+                            <a href="#" class="btn-small">Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass">
+                    <div class="portfolio-header">
+                        <div class="gradient-box gradient-3"></div>
+                    </div>
+                    <div class="portfolio-body">
+                        <h3>Task Management App</h3>
+                        <p>Aplikasi manajemen tugas dengan dashboard analytics yang powerful</p>
+                        <div class="btn-group-small">
+                            <a href="#" class="btn-small">Live</a>
+                            <a href="#" class="btn-small">Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass">
+                    <div class="portfolio-header">
+                        <div class="gradient-box gradient-4"></div>
+                    </div>
+                    <div class="portfolio-body">
+                        <h3>Blog Website</h3>
+                        <p>Website blog personal dengan SEO optimization dan fast loading</p>
+                        <div class="btn-group-small">
+                            <a href="#" class="btn-small">Live</a>
+                            <a href="#" class="btn-small">Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Saya</h2>
+                <p>Mari memulai proyek berikutnya bersama</p>
+            </div>
+            <div class="contact-wrapper">
+                <form class="contact-form glass" id="contactForm">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+                <div class="social-wrapper glass">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon glass">f</a>
+                        <a href="#" class="social-icon glass">in</a>
+                        <a href="#" class="social-icon glass">@</a>
+                        <a href="#" class="social-icon glass">GH</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+        <div class="container">
+            <p>&copy; 2026 Umi Qoriah. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
